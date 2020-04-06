@@ -1,0 +1,3 @@
+a = input("Enter the numbers separated by space:")
+mylist = a.split()
+print(mylist)
