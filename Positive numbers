@@ -1,0 +1,7 @@
+input_string = input("Enter a list numbers or elements separated by space: ")
+userList = input_string.split()
+print("user list is ", userList)
+for num in userList:
+    if num>"0:
+        print(num)
+        
