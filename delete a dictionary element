@@ -1,0 +1,3 @@
+mydic = {"john":40,"peter":56,"bella":90,"steve":11}
+mydic.pop("john")
+print(mydic)
