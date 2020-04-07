@@ -1,0 +1,13 @@
+i = input("Enter numbers and elements separated by space:")
+mylist = i.split()
+print(mylist)
+evenlist = []
+oddlist = []
+
+for n in mylist:
+    if int(n) % 2 == 0:
+        evenlist.append(n)
+    else:
+        oddlist.append(n)
+print("Evenlist:",evenlist)
+print("Oddlist:",oddlist)     
