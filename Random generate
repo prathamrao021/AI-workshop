@@ -1,0 +1,14 @@
+import string
+import random
+
+k = int(input("Enter the length of the word:"))
+j = int(input("How many numbers you want to generate?"))
+m = 0
+
+
+
+while(m<=j):
+    res = ''.join(random.choice(string.ascii_lowercase) for i in range(k))
+    m +=1
+    if( "u" in str(res)):
+        print(str(res))
