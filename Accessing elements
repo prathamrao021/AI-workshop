@@ -1,6 +1,0 @@
-mytuple = ("c","c++","java","python")
-for string in mytuple:
-    print(string)
-    
-mytuple = ("c","c++","java","python")
-print(string[0])#in this way you can access every element of the tuple..
